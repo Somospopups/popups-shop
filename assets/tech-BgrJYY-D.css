@@ -1,0 +1,1 @@
+body.front-tech-page{overflow-x:hidden;background:#edf7fc}#frontTech{position:relative;width:100%}#techFrame{display:block;width:100%;height:calc(100vh - 112px);height:calc(100dvh - 112px);border:0;background:#fff}@media(max-width:860px){#techFrame{height:calc(100vh - 95px);height:calc(100dvh - 95px)}}

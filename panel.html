@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Panel · popups-shop</title>
+  <link rel="icon" href="data:,">
+  <script type="module" crossorigin src="./assets/panel-Bi6MFOJm.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/ui-c_WJ4vRH.js">
+  <link rel="stylesheet" crossorigin href="./assets/ui-IyqH8Pi1.css">
+  <link rel="stylesheet" crossorigin href="./assets/panel-BuylzL8G.css">
+</head>
+<body class="admin-body">
+<svg class="svg-sprite" aria-hidden="true">
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.6" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m16 16 4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5.5 8.5h13l-1 11h-11l-1-11Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 9V6.5a3 3 0 0 1 6 0V9" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M5.5 20c.6-4 3-6 6.5-6s5.9 2 6.5 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="i-customers" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="17" cy="9" r="2.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M3.5 20c.5-4 2.5-6 5.5-6s5 2 5.5 6M15 15c2.8-.7 5 .9 5.5 4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M7.2 3.5 10 7.7 8.2 9.5c1.2 2.5 3.1 4.4 5.6 5.6l1.8-1.8 4.2 2.8-.8 3.5c-.2.8-.9 1.3-1.7 1.2C9.8 20 4 14.2 3.2 6.7c-.1-.8.4-1.5 1.2-1.7l2.8-.7Z" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-map" viewBox="0 0 24 24"><path d="M12 21s7-6.3 7-12a7 7 0 1 0-14 0c0 5.7 7 12 7 12Z" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="9" r="2.4" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m8 10 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><path d="M3 6h11v11H3V6Zm11 4h4l3 3v4h-7v-7Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="7" cy="18" r="2" fill="white" stroke="currentColor" stroke-width="1.5"/><circle cx="18" cy="18" r="2" fill="white" stroke="currentColor" stroke-width="1.5"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M19 8a8 8 0 1 0 .4 7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M19 4v4h-4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 4.7 2.7 8.2 7 10 4.3-1.8 7-5.3 7-10V6l-7-3Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="m9 12 2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24"><path d="m4 7 8-4 8 4-8 4-8-4Zm0 0v10l8 4 8-4V7M12 11v10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6" rx="1" fill="none" stroke="currentColor" stroke-width="1.7"/><rect x="14" y="4" width="6" height="6" rx="1" fill="none" stroke="currentColor" stroke-width="1.7"/><rect x="4" y="14" width="6" height="6" rx="1" fill="none" stroke="currentColor" stroke-width="1.7"/><rect x="14" y="14" width="6" height="6" rx="1" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+    <symbol id="i-orders" viewBox="0 0 24 24"><path d="M7 3h10l2 3v15H5V6l2-3Z" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M5 7h14M9 11h6M9 15h6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="i-finance" viewBox="0 0 24 24"><path d="M4 5h16v14H4V5Zm0 4h16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M8 15h2M15 12v5M12 14v3M18 11v6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><path d="M6 9a6 6 0 0112 0v4l2 3H4l2-3V9Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9.5 19h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="i-settings" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M19 13.5V10.5l-2-.7-.5-1.2.9-1.9-2.1-2.1-1.9.9-1.2-.5-.7-2h-3l-.7 2-1.2.5-1.9-.9-2.1 2.1.9 1.9-.5 1.2-2 .7v3l2 .7.5 1.2-.9 1.9 2.1 2.1 1.9-.9 1.2.5.7 2h3l.7-2 1.2-.5 1.9.9 2.1-2.1-.9-1.9.5-1.2 2-.7Z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linejoin="round"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M13 5h6v6M19 5l-9 9" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M18 14v5H5V6h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-edit" viewBox="0 0 24 24"><path d="m14 5 5 5L9 20H4v-5L14 5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="m12 7 5 5" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M5 7h14M9 7V4h6v3M7 7l1 13h8l1-13M10 11v5M14 11v5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 16V4m-4 4 4-4 4 4M5 14v6h14v-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24"><path d="M4 8h3l1.5-2h7L17 8h3v11H4V8Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="12" cy="13" r="3.2" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+    <symbol id="i-scan" viewBox="0 0 24 24"><path d="M4 9V5h4M16 5h4v4M20 15v4h-4M8 19H4v-4M7 12h10M8 9v6M11 9v6M14 9v6M17 9v6" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4.5 4.5L19 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M20 11.7a8 8 0 0 1-11.8 7L4 20l1.3-4A8 8 0 1 1 20 11.7Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 8.2c.2-.5.5-.5.8-.5h.4c.2 0 .4.1.5.4l.8 1.8c.1.3 0 .5-.2.7l-.6.7c-.2.2-.1.4 0 .6.5 1 1.3 1.8 2.3 2.3.2.1.4.2.6 0l.8-.9c.2-.2.4-.3.7-.2l1.7.8c.3.1.4.3.4.6 0 .7-.4 1.4-1 1.8-.5.3-1.2.5-2 .3-1.1-.3-2.6-1-4.2-2.5-1.3-1.3-2.2-2.8-2.5-4-.2-.8 0-1.4.5-1.9Z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M3 12s3.2-6 9-6 9 6 9 6-3.2 6-9 6-9-6-9-6Z" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  </svg>
+<section id="adminApp" class="admin-app" hidden>
+    <div class="admin-login" id="adminLogin">
+      <button class="admin-back" id="loginBack"><svg><use href="#i-arrow"></use></svg> Volver a la tienda</button>
+      <div class="login-card">
+        <div class="login-brand"><span class="brand-mark" data-logo-slot><i></i><i></i><i></i><i></i></span><span data-brand>LUMA</span></div>
+        <span class="kicker">Acceso privado</span>
+        <h1>Todo tu negocio,<br>en un solo lugar.</h1>
+        <p>Gestioná productos, stock y pedidos en tiempo real.</p>
+        <form id="loginForm"><label class="field"><span>PIN de administrador</span><input name="pin" type="password" inputmode="numeric" maxlength="12" required placeholder="••••" autocomplete="current-password"></label><p class="form-error" id="loginError"></p><p class="field-hint" id="loginCloudHint" style="margin:0 0 14px;font-size:12.5px;color:#6f736a;line-height:1.5" hidden>¿Perdiste tu Clave de acceso? Escribinos y te generamos una nueva.</p><button class="button button-dark button-full" type="submit">Ingresar al panel <svg><use href="#i-arrow"></use></svg></button></form>
+
+      </div>
+      <div class="login-art"><div class="login-art-copy"><span>Control simple.<br><em>Decisiones claras.</em></span><small>Ventas · Inventario · Catálogo</small></div></div>
+    </div>
+
+    <div class="admin-shell" id="adminShell" hidden>
+      <aside class="admin-sidebar" id="adminSidebar">
+        <div class="admin-logo"><span class="brand-mark" data-logo-slot><i></i><i></i><i></i><i></i></span><span data-brand>LUMA</span><small>ADMIN</small></div>
+        <nav id="adminNav">
+          <button class="active" data-admin-tab="dashboard"><svg><use href="#i-grid"></use></svg><span>Resumen</span></button>
+          <button data-admin-tab="alerts"><svg><use href="#i-alert"></use></svg><span>Alertas</span><b id="adminAlertBadge" hidden>0</b></button>
+          <button data-admin-tab="products"><svg><use href="#i-box"></use></svg><span>Productos</span></button>
+          <button data-admin-tab="customers"><svg><use href="#i-customers"></use></svg><span>Clientes</span></button>
+          <button data-admin-tab="orders"><svg><use href="#i-orders"></use></svg><span>Pedidos</span><b id="pendingOrderBadge" hidden>0</b></button>
+          <button data-admin-tab="finance"><svg><use href="#i-finance"></use></svg><span>Finanzas</span></button>
+          <button data-admin-tab="settings"><svg><use href="#i-settings"></use></svg><span>Configuración</span></button>
+        </nav>
+        <div class="admin-sidebar-bottom"><button id="viewStore" title="Ver tienda"><svg><use href="#i-external"></use></svg><span>Ver tienda</span></button><button id="editStore" title="Editar tienda"><svg><use href="#i-settings"></use></svg><span>Editar tienda</span></button><button id="guidePdfButton"><svg><use href="#i-orders"></use></svg><span>Guía (PDF)</span></button><button id="logoutButton"><svg><use href="#i-user"></use></svg><span>Cerrar sesión</span></button></div>
+      </aside>
+      <header class="admin-mobile-header"><button id="adminMenuButton"><svg><use href="#i-menu"></use></svg></button><div class="admin-logo"><span data-brand>LUMA</span><small>ADMIN</small></div><button id="adminMobileStore" title="Ver tienda" aria-label="Ver tienda"><svg><use href="#i-external"></use></svg></button><button id="adminMobileEdit" title="Editar tienda" aria-label="Editar tienda"><svg><use href="#i-settings"></use></svg></button></header>
+      <main class="admin-main"><div id="adminContent" class="admin-content"><div class="admin-loader"><i></i><span>Preparando tu panel…</span></div></div></main>
+    </div>
+  </section>
+
+  <div class="modal-backdrop admin-modal-backdrop" id="financeMovementBackdrop" hidden>
+    <section class="customer-editor modal-card" role="dialog" aria-modal="true" aria-labelledby="customerEditorTitle">
+      <header class="modal-header"><div><span>Fidelización</span><h2 id="customerEditorTitle">Nuevo cliente</h2></div><button class="round-close" id="closeCustomerEditor" aria-label="Cerrar editor"><svg><use href="#i-close"></use></svg></button></header>
+      <form id="customerForm"><input type="hidden" name="id"><div class="customer-editor-body"><div class="field-grid"><label class="field field-wide"><span>Nombre y apellido</span><input name="fullName" required maxlength="120" autocomplete="name" placeholder="Ej. Andrea López"></label><label class="field"><span>Comercio <small>(opcional)</small></span><input name="business" maxlength="120" autocomplete="organization" placeholder="Ej. Almacén Norte"></label><label class="field"><span>Teléfono</span><input name="phone" required maxlength="50" inputmode="tel" autocomplete="tel" placeholder="Ej. 351 555 0000"></label><label class="field field-wide"><span>Dirección</span><textarea name="address" rows="3" maxlength="350" autocomplete="street-address" placeholder="Calle, número, localidad y provincia"></textarea></label></div><div class="customer-form-note"><svg><use href="#i-orders"></use></svg><span><b>Historial de compras</b><small>Después de guardar podrás registrar ventas manuales. Las compras online se vinculan automáticamente por teléfono.</small></span></div></div><div class="editor-actions"><p class="form-error" id="customerFormError"></p><button class="button button-light" type="button" id="cancelCustomerEditor">Cancelar</button><button class="button button-dark" type="submit" id="saveCustomerButton">Guardar cliente <svg><use href="#i-check"></use></svg></button></div></form>
+    </section>
+  </div>
+
+  <div class="modal-backdrop admin-modal-backdrop" id="purchaseEditorBackdrop" hidden>
+    <section class="purchase-editor modal-card" role="dialog" aria-modal="true" aria-labelledby="purchaseEditorTitle">
+      <header class="modal-header"><div><span>Historial de compras</span><h2 id="purchaseEditorTitle">Registrar compra</h2></div><button class="round-close" id="closePurchaseEditor" aria-label="Cerrar"><svg><use href="#i-close"></use></svg></button></header>
+      <form id="purchaseForm"><input type="hidden" name="customerId"><div class="purchase-editor-body"><div class="purchase-customer-mini" id="purchaseCustomerMini"></div><div class="field-grid"><label class="field"><span>Fecha</span><input name="date" type="date" required></label><label class="field"><span>Monto</span><div class="money-input"><b>$</b><input name="amount" type="number" min="0" step="1" required placeholder="0"></div></label><label class="field field-wide"><span>Detalle de la compra</span><textarea name="description" rows="4" maxlength="300" required placeholder="Ej. 2 productos de cuidado personal"></textarea></label></div></div><div class="editor-actions"><p class="form-error" id="purchaseFormError"></p><button class="button button-light" type="button" id="cancelPurchaseEditor">Cancelar</button><button class="button button-dark" type="submit" id="savePurchaseButton">Agregar al historial <svg><use href="#i-check"></use></svg></button></div></form>
+    </section>
+  </div>
+
+  <div class="modal-backdrop admin-modal-backdrop" id="productEditorBackdrop" hidden>
+    <section class="admin-editor modal-card" role="dialog" aria-modal="true" aria-labelledby="editorTitle">
+      <header class="modal-header"><div><span id="editorEyebrow">Catálogo</span><h2 id="editorTitle">Nuevo producto</h2></div><button class="round-close" id="closeProductEditor" aria-label="Cerrar editor"><svg><use href="#i-close"></use></svg></button></header>
+      <form id="productForm">
+        <input type="hidden" name="id">
+        <div class="editor-layout">
+          <div class="image-uploader"><div class="upload-preview" id="uploadPreview"><div><svg><use href="#i-upload"></use></svg><b>Subí una foto</b><span>PNG, JPG o WEBP · Se aligera sola al subir</span></div></div><input type="file" id="productImageFile" accept="image/png,image/jpeg,image/webp" hidden><input type="file" id="productCameraFile" accept="image/*" capture="environment" hidden><div class="image-source-actions"><button type="button" class="button button-light button-small" id="chooseImageButton"><svg><use href="#i-upload"></use></svg> Elegir imagen</button><button type="button" class="button button-camera button-small" id="takePhotoButton"><svg><use href="#i-camera"></use></svg> Sacar foto</button></div><input type="hidden" name="image"><small id="uploadStatus"></small></div>
+          <div class="editor-fields"><div class="field-grid"><label class="field field-wide"><span>Nombre del producto</span><input name="name" required maxlength="100" placeholder="Ej. Florero Calma"></label><label class="field field-wide barcode-field"><span>Código de barras <small>(solo administrador)</small></span><div class="barcode-input"><svg><use href="#i-scan"></use></svg><input name="barcode" maxlength="80" inputmode="numeric" autocomplete="off" placeholder="Escanealo o ingresalo manualmente"></div><small class="field-help">Permite encontrar el producto y reponer stock con la cámara</small></label><label class="field"><span>Categoría</span><input name="category" required list="categoryList" placeholder="Hogar"><datalist id="categoryList"></datalist></label><label class="field"><span>Etiqueta <small>(opcional)</small></span><input name="badge" maxlength="40" placeholder="Nuevo, 20% OFF…"></label><label class="field"><span>Precio</span><div class="money-input"><b>$</b><input name="price" type="number" min="0" step="1" required placeholder="0"></div></label><label class="field"><span>Precio anterior <small>(opcional)</small></span><div class="money-input"><b>$</b><input name="compareAtPrice" type="number" min="0" step="1" placeholder="0"></div></label><label class="field field-wide wholesale-field"><span>Precio mayorista <small>(privado)</small></span><div class="money-input"><b>$</b><input name="wholesalePrice" type="number" min="0" step="1" placeholder="0"></div><small class="field-help"><svg><use href="#i-eye"></use></svg> Solo aparece en el administrador y en la lista de precios compartida</small></label><label class="field field-wide cost-field"><span>Precio de costo <small>(privado)</small></span><div class="money-input"><b>$</b><input name="costPrice" type="number" min="0" step="1" placeholder="0"></div><small class="field-help"><svg><use href="#i-finance"></use></svg> Se usa para calcular márgenes y ganancias; nunca aparece en la tienda</small></label><label class="field"><span>Stock disponible</span><input name="stock" type="number" min="0" step="1" required value="0"></label><label class="field"><span>Avisar stock bajo en</span><input name="lowStockAt" type="number" min="0" step="1" value="3"></label><label class="field field-wide"><span>Descripción</span><textarea name="description" rows="4" maxlength="1000" placeholder="Contá qué hace especial a este producto…"></textarea></label></div><div class="toggle-row"><label class="switch-field"><input type="checkbox" name="active" checked><i></i><span><b>Visible en la tienda</b><small>Los productos ocultos no pueden comprarse</small></span></label><label class="switch-field"><input type="checkbox" name="featured"><i></i><span><b>Producto destacado</b><small>Aparece primero en la colección</small></span></label></div></div>
+        </div>
+        <div class="editor-actions"><p class="form-error" id="productFormError"></p><button class="button button-light" type="button" id="cancelProductEditor">Cancelar</button><button class="button button-dark" type="submit" id="saveProductButton">Guardar producto <svg><use href="#i-check"></use></svg></button></div>
+      </form>
+    </section>
+  </div>
+
+
+  <div id="toastRegion" class="toast-region" aria-live="polite"></div>
+</body>
+</html>
